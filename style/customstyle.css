@@ -1,0 +1,189 @@
+/*for index page background*/
+body.onepagebody{
+  background: url(../images/design/2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.other{
+  background: url(../images/design/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.navbarr{
+	background: #3d3e3f;
+	border-bottom: 3px solid #FFFF33;
+	color: white;
+}
+
+.navcontainer{
+	margin: 0;
+	width: 100%;
+}
+
+.indexpage{
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	padding: 20px;
+	width: 30%;
+	min-height: 20%;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	border: 3px solid #ccc;
+	color: white;
+}
+
+.main_form{
+	margin-top: 30px;
+	border: 3px solid grey;
+	border-radius: 0;
+	-webkit-appearance: none;
+	color: #eee;
+	padding: 20px;
+}
+
+.car, .driver{
+	border: 3px solid grey;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.car-filter, .driver-filter{
+	border: 3px solid grey;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.calculate-fees, .booking-detail{
+	border: 3px solid grey;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.adjustnavpositon{
+	margin-top: 70px;
+}
+
+.user_data li{
+	padding: 2px;
+}
+
+.comments li{
+	margin-top: 5px;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 10px;
+	background: #ddd;
+	color: #222;
+}
+
+.reservation{
+	background: transparent;
+	padding: 20px;
+	border-radius: 0;
+	-webkit-appearance: none;
+	border:1px solid grey;
+}
+.reservation-table{
+	color: white;
+}
+
+
+div#contactform, div#officelocation{
+	color: black;
+	border: 4px solid yellow;
+	width: 30%;
+	margin: 8% 0 5% 10%;
+	padding: 1.5% 3% 1% 3%;
+	background: white;
+	opacity: 0.8;
+	border-top-left-radius: 0; /*100*/
+	border-bottom-right-radius: 0; /*100*/
+	border-bottom-left-radius: 0;/*50*/
+	border-top-right-radius: 0;  /*50*/
+	-webkit-appearance: none;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+div#contactform{
+	width: 30%;
+	float: left;
+}
+
+div#officelocation{
+	border-radius: 0; /*850px*/
+	-webkit-appearance: none;
+	padding: 1.5% 3% 2% 3%;
+	margin: 8% 4% 0% 1%;
+	width: 33%;
+	height: 100%;
+	float: right;
+	background: black;
+	color: white;
+	opacity: 0.8;
+}
+
+div#officelocation h3{
+	font-size: 1.5em;
+	padding: 8px;
+	color: white;
+	cursor: pointer;
+	border-radius: 0;
+	-webkit-appearance: none;
+	border: 2px solid white;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 1em;
+}
+div#officelocation ul li{
+	list-style: none;
+	padding: 1em;
+}
+div#officelocation img{
+	margin: 1em 20%;
+	width: 60%;
+}
+
+.box ul{
+	display: none;
+}
+
+#default ul{
+	display: block;
+}
+
+#naviga li a{
+	color: white;
+}
+
+#naviga li a:hover{
+	color: yellow;
+}
+
+#navili ul li a{
+	color: black;
+}
+
+#navili ul li a:hover{
+	color: grey;
+}
+
+li#active a{
+	color: yellow;
+}
